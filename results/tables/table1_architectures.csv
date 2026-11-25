@@ -1,0 +1,9 @@
+model,label,conv_longest_path,fc_longest_path,nominal_depth,effective_depth,bn_modules_including_projections_and_aux,auxiliary_heads,classifier_outputs,seeds
+vgg11_bn,VGG-11-BN,8,3,11,11.0,8,0,1000,"42,123,456,789,1024"
+vgg13_bn,VGG-13-BN,10,3,13,13.0,10,0,1000,"42,123,456,789,1024"
+vgg16_bn,VGG-16-BN,13,3,16,16.0,13,0,1000,"42,123,456,789,1024"
+vgg19_bn,VGG-19-BN,16,3,19,19.0,16,0,1000,"42,123,456,789,1024"
+resnet18,ResNet-18,17,1,18,11.5,20,0,1000,"42,123,456,789,1024"
+resnet34,ResNet-34,33,1,34,19.5,36,0,1000,"1024,42,123,456,789"
+resnet50,ResNet-50,49,1,50,28.0,53,0,1000,"42,123,456,789,1024"
+googlenet,GoogLeNet,21,1,22,17.5,59,2,1000,"42,123,456,789,1024"

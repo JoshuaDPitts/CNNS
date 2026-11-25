@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Local datasets, checkpoints, and heavy runtime artifacts
+/data/
+/runs/
+/workspace/
+/workspace_recovered/
+/.local_legacy_archive/
+/.claude/
+*.tgz
+*.tar.gz
+*.zip
+*.pth
+*.pt
+*.ckpt
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,867 @@
+[
+  {
+    "model": "resnet34",
+    "seed": 1024,
+    "trial": "ray_entry_924fc_00000",
+    "params": 21797672,
+    "params_main": 21797672,
+    "conv_modules": 36,
+    "bn_modules": 36,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "vgg19",
+    "seed": 8192,
+    "trial": "ray_entry_e6088_00000",
+    "params": 143667240,
+    "params_main": 143667240,
+    "conv_modules": 16,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "googlenet",
+    "seed": 42,
+    "trial": "ray_entry_40e9b_00000",
+    "params": 13004888,
+    "params_main": 6624904,
+    "conv_modules": 59,
+    "bn_modules": 59,
+    "head_shapes": {
+      "aux1.fc2.weight": [
+        1000,
+        1024
+      ],
+      "aux2.fc2.weight": [
+        1000,
+        1024
+      ],
+      "fc.weight": [
+        1000,
+        1024
+      ]
+    }
+  },
+  {
+    "model": "googlenet",
+    "seed": 123,
+    "trial": "ray_entry_40e9b_00001",
+    "params": 13004888,
+    "params_main": 6624904,
+    "conv_modules": 59,
+    "bn_modules": 59,
+    "head_shapes": {
+      "aux1.fc2.weight": [
+        1000,
+        1024
+      ],
+      "aux2.fc2.weight": [
+        1000,
+        1024
+      ],
+      "fc.weight": [
+        1000,
+        1024
+      ]
+    }
+  },
+  {
+    "model": "googlenet",
+    "seed": 456,
+    "trial": "ray_entry_40e9b_00002",
+    "params": 13004888,
+    "params_main": 6624904,
+    "conv_modules": 59,
+    "bn_modules": 59,
+    "head_shapes": {
+      "aux1.fc2.weight": [
+        1000,
+        1024
+      ],
+      "aux2.fc2.weight": [
+        1000,
+        1024
+      ],
+      "fc.weight": [
+        1000,
+        1024
+      ]
+    }
+  },
+  {
+    "model": "googlenet",
+    "seed": 789,
+    "trial": "ray_entry_40e9b_00003",
+    "params": 13004888,
+    "params_main": 6624904,
+    "conv_modules": 59,
+    "bn_modules": 59,
+    "head_shapes": {
+      "aux1.fc2.weight": [
+        1000,
+        1024
+      ],
+      "aux2.fc2.weight": [
+        1000,
+        1024
+      ],
+      "fc.weight": [
+        1000,
+        1024
+      ]
+    }
+  },
+  {
+    "model": "googlenet",
+    "seed": 1024,
+    "trial": "ray_entry_40e9b_00004",
+    "params": 13004888,
+    "params_main": 6624904,
+    "conv_modules": 59,
+    "bn_modules": 59,
+    "head_shapes": {
+      "aux1.fc2.weight": [
+        1000,
+        1024
+      ],
+      "aux2.fc2.weight": [
+        1000,
+        1024
+      ],
+      "fc.weight": [
+        1000,
+        1024
+      ]
+    }
+  },
+  {
+    "model": "vgg11",
+    "seed": 42,
+    "trial": "ray_entry_488ce_00000",
+    "params": 132863336,
+    "params_main": 132863336,
+    "conv_modules": 8,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11",
+    "seed": 123,
+    "trial": "ray_entry_488ce_00001",
+    "params": 132863336,
+    "params_main": 132863336,
+    "conv_modules": 8,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11",
+    "seed": 42,
+    "trial": "ray_entry_5313f_00000",
+    "params": 132863336,
+    "params_main": 132863336,
+    "conv_modules": 8,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11",
+    "seed": 123,
+    "trial": "ray_entry_5313f_00001",
+    "params": 132863336,
+    "params_main": 132863336,
+    "conv_modules": 8,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11",
+    "seed": 456,
+    "trial": "ray_entry_5313f_00002",
+    "params": 132863336,
+    "params_main": 132863336,
+    "conv_modules": 8,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19",
+    "seed": 42,
+    "trial": "ray_entry_94822_00000",
+    "params": 143667240,
+    "params_main": 143667240,
+    "conv_modules": 16,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "resnet18",
+    "seed": 42,
+    "trial": "ray_entry_a4e5c_00000",
+    "params": 11689512,
+    "params_main": 11689512,
+    "conv_modules": 20,
+    "bn_modules": 20,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet18",
+    "seed": 123,
+    "trial": "ray_entry_a4e5c_00001",
+    "params": 11689512,
+    "params_main": 11689512,
+    "conv_modules": 20,
+    "bn_modules": 20,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet18",
+    "seed": 456,
+    "trial": "ray_entry_a4e5c_00002",
+    "params": 11689512,
+    "params_main": 11689512,
+    "conv_modules": 20,
+    "bn_modules": 20,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet18",
+    "seed": 789,
+    "trial": "ray_entry_a4e5c_00003",
+    "params": 11689512,
+    "params_main": 11689512,
+    "conv_modules": 20,
+    "bn_modules": 20,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet18",
+    "seed": 1024,
+    "trial": "ray_entry_a4e5c_00004",
+    "params": 11689512,
+    "params_main": 11689512,
+    "conv_modules": 20,
+    "bn_modules": 20,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet34",
+    "seed": 42,
+    "trial": "ray_entry_d2616_00000",
+    "params": 21797672,
+    "params_main": 21797672,
+    "conv_modules": 36,
+    "bn_modules": 36,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet34",
+    "seed": 123,
+    "trial": "ray_entry_d2616_00001",
+    "params": 21797672,
+    "params_main": 21797672,
+    "conv_modules": 36,
+    "bn_modules": 36,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet34",
+    "seed": 456,
+    "trial": "ray_entry_d2616_00002",
+    "params": 21797672,
+    "params_main": 21797672,
+    "conv_modules": 36,
+    "bn_modules": 36,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet34",
+    "seed": 789,
+    "trial": "ray_entry_d2616_00003",
+    "params": 21797672,
+    "params_main": 21797672,
+    "conv_modules": 36,
+    "bn_modules": 36,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        512
+      ]
+    }
+  },
+  {
+    "model": "resnet50",
+    "seed": 42,
+    "trial": "ray_entry_d996f_00000",
+    "params": 25557032,
+    "params_main": 25557032,
+    "conv_modules": 53,
+    "bn_modules": 53,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        2048
+      ]
+    }
+  },
+  {
+    "model": "resnet50",
+    "seed": 123,
+    "trial": "ray_entry_d996f_00001",
+    "params": 25557032,
+    "params_main": 25557032,
+    "conv_modules": 53,
+    "bn_modules": 53,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        2048
+      ]
+    }
+  },
+  {
+    "model": "resnet50",
+    "seed": 456,
+    "trial": "ray_entry_d996f_00002",
+    "params": 25557032,
+    "params_main": 25557032,
+    "conv_modules": 53,
+    "bn_modules": 53,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        2048
+      ]
+    }
+  },
+  {
+    "model": "resnet50",
+    "seed": 789,
+    "trial": "ray_entry_d996f_00003",
+    "params": 25557032,
+    "params_main": 25557032,
+    "conv_modules": 53,
+    "bn_modules": 53,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        2048
+      ]
+    }
+  },
+  {
+    "model": "resnet50",
+    "seed": 1024,
+    "trial": "ray_entry_d996f_00004",
+    "params": 25557032,
+    "params_main": 25557032,
+    "conv_modules": 53,
+    "bn_modules": 53,
+    "head_shapes": {
+      "fc.weight": [
+        1000,
+        2048
+      ]
+    }
+  },
+  {
+    "model": "vgg16",
+    "seed": 42,
+    "trial": "ray_entry_ddd92_00000",
+    "params": 138357544,
+    "params_main": 138357544,
+    "conv_modules": 13,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16",
+    "seed": 123,
+    "trial": "ray_entry_ddd92_00001",
+    "params": 138357544,
+    "params_main": 138357544,
+    "conv_modules": 13,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16",
+    "seed": 456,
+    "trial": "ray_entry_ddd92_00002",
+    "params": 138357544,
+    "params_main": 138357544,
+    "conv_modules": 13,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16",
+    "seed": 789,
+    "trial": "ray_entry_ddd92_00003",
+    "params": 138357544,
+    "params_main": 138357544,
+    "conv_modules": 13,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16",
+    "seed": 1024,
+    "trial": "ray_entry_ddd92_00004",
+    "params": 138357544,
+    "params_main": 138357544,
+    "conv_modules": 13,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19",
+    "seed": 2048,
+    "trial": "ray_entry_e0675_00000",
+    "params": 143667240,
+    "params_main": 143667240,
+    "conv_modules": 16,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19",
+    "seed": 789,
+    "trial": "ray_entry_adf6c_00001",
+    "params": 143667240,
+    "params_main": 143667240,
+    "conv_modules": 16,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19",
+    "seed": 1024,
+    "trial": "ray_entry_adf6c_00002",
+    "params": 143667240,
+    "params_main": 143667240,
+    "conv_modules": 16,
+    "bn_modules": 0,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11_bn",
+    "seed": 42,
+    "trial": "vgg11_bn_s42_a2",
+    "params": 132868840,
+    "params_main": 132868840,
+    "conv_modules": 8,
+    "bn_modules": 8,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11_bn",
+    "seed": 123,
+    "trial": "vgg11_bn_s123_a1",
+    "params": 132868840,
+    "params_main": 132868840,
+    "conv_modules": 8,
+    "bn_modules": 8,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11_bn",
+    "seed": 456,
+    "trial": "vgg11_bn_s456_a1",
+    "params": 132868840,
+    "params_main": 132868840,
+    "conv_modules": 8,
+    "bn_modules": 8,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11_bn",
+    "seed": 789,
+    "trial": "vgg11_bn_s789_a1",
+    "params": 132868840,
+    "params_main": 132868840,
+    "conv_modules": 8,
+    "bn_modules": 8,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg11_bn",
+    "seed": 1024,
+    "trial": "vgg11_bn_s1024_a1",
+    "params": 132868840,
+    "params_main": 132868840,
+    "conv_modules": 8,
+    "bn_modules": 8,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg13_bn",
+    "seed": 42,
+    "trial": "vgg13_bn_s42_a1",
+    "params": 133053736,
+    "params_main": 133053736,
+    "conv_modules": 10,
+    "bn_modules": 10,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg13_bn",
+    "seed": 123,
+    "trial": "vgg13_bn_s123_a1",
+    "params": 133053736,
+    "params_main": 133053736,
+    "conv_modules": 10,
+    "bn_modules": 10,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg13_bn",
+    "seed": 456,
+    "trial": "vgg13_bn_s456_a1",
+    "params": 133053736,
+    "params_main": 133053736,
+    "conv_modules": 10,
+    "bn_modules": 10,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg13_bn",
+    "seed": 789,
+    "trial": "vgg13_bn_s789_a1",
+    "params": 133053736,
+    "params_main": 133053736,
+    "conv_modules": 10,
+    "bn_modules": 10,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg13_bn",
+    "seed": 1024,
+    "trial": "vgg13_bn_s1024_a1",
+    "params": 133053736,
+    "params_main": 133053736,
+    "conv_modules": 10,
+    "bn_modules": 10,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16_bn",
+    "seed": 42,
+    "trial": "vgg16_bn_s42_a1",
+    "params": 138365992,
+    "params_main": 138365992,
+    "conv_modules": 13,
+    "bn_modules": 13,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16_bn",
+    "seed": 123,
+    "trial": "vgg16_bn_s123_a1",
+    "params": 138365992,
+    "params_main": 138365992,
+    "conv_modules": 13,
+    "bn_modules": 13,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16_bn",
+    "seed": 456,
+    "trial": "vgg16_bn_s456_a1",
+    "params": 138365992,
+    "params_main": 138365992,
+    "conv_modules": 13,
+    "bn_modules": 13,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16_bn",
+    "seed": 789,
+    "trial": "vgg16_bn_s789_a1",
+    "params": 138365992,
+    "params_main": 138365992,
+    "conv_modules": 13,
+    "bn_modules": 13,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg16_bn",
+    "seed": 1024,
+    "trial": "vgg16_bn_s1024_a1",
+    "params": 138365992,
+    "params_main": 138365992,
+    "conv_modules": 13,
+    "bn_modules": 13,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19_bn",
+    "seed": 42,
+    "trial": "vgg19_bn_s42_a1",
+    "params": 143678248,
+    "params_main": 143678248,
+    "conv_modules": 16,
+    "bn_modules": 16,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19_bn",
+    "seed": 123,
+    "trial": "vgg19_bn_s123_a1",
+    "params": 143678248,
+    "params_main": 143678248,
+    "conv_modules": 16,
+    "bn_modules": 16,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19_bn",
+    "seed": 456,
+    "trial": "vgg19_bn_s456_a2",
+    "params": 143678248,
+    "params_main": 143678248,
+    "conv_modules": 16,
+    "bn_modules": 16,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19_bn",
+    "seed": 789,
+    "trial": "vgg19_bn_s789_a1",
+    "params": 143678248,
+    "params_main": 143678248,
+    "conv_modules": 16,
+    "bn_modules": 16,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  },
+  {
+    "model": "vgg19_bn",
+    "seed": 1024,
+    "trial": "vgg19_bn_s1024_a2",
+    "params": 143678248,
+    "params_main": 143678248,
+    "conv_modules": 16,
+    "bn_modules": 16,
+    "head_shapes": {
+      "classifier.6.weight": [
+        1000,
+        4096
+      ]
+    }
+  }
+]
